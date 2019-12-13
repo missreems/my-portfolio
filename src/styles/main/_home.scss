@@ -1,5 +1,51 @@
-// /* logo */
-// img {
-//   width: 5%;
-//   transform: rotate(180deg);
-// }
+.home-container {
+  height: 88vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: black;
+
+  .home-headings {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    text-align: right;
+    margin-top: 10px;
+
+    h1 {
+      font-size: 120px;
+      margin-right: 50px;
+    }
+
+    h2 {
+      font-size: 60px;
+      margin-right: 50px;
+    }
+
+    div {
+      width: 50%;
+      align-self: flex-end;
+      border-bottom: 2px solid white;
+      margin-top: 25px;
+    }
+  }
+
+  .home-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 20px 50px 0 0;
+
+    p {
+      font-size: 25px;
+      margin-top: 250px;
+      margin-left: 50px;
+    }
+
+    div {
+      width: 45%;
+      border-bottom: 2px solid white;
+      margin-top: 35px;
+    }
+  }
+}

@@ -4,6 +4,8 @@ import { BrowserRouter } from 'react-router-dom'
 import './styles/style.scss'
 
 import Header from './components/common/Header'
+import Home from './components/Home'
+import Tech from './components/Tech'
 
 class App extends React.Component{
   render() {
@@ -11,6 +13,8 @@ class App extends React.Component{
       <BrowserRouter>
         <Header />
         <main>
+          <Home />
+          <Tech />
         </main>
       </BrowserRouter>
     )
