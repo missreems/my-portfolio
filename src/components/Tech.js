@@ -4,7 +4,7 @@ class Tech extends React.Component{
   render() {
     return (
       <div className="tech-container">
-        <div className="tech-heading">
+        <div id="tech" className="tech-heading">
           <h2>Tech</h2>
           <div></div>
         </div>

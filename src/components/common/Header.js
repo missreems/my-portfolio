@@ -5,7 +5,7 @@ import Nav from './Nav'
 class Header extends React.Component {
   render() {
     return (
-      <header>
+      <header id="header">
         <Nav />
         <div className="contact-icons">
           <a href="#"><i className="fab fa-github-square"></i></a>
