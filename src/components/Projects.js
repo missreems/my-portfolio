@@ -3,14 +3,14 @@ import React from 'react'
 class Tech extends React.Component{
   render() {
     return (
-      <div className="projects-container">
-        <div id="projects" className="projects-heading">
+      <div className="projects-container" id="projects">
+        <div className="projects-heading">
           <h2>Projects</h2>
           <div></div>
         </div>
 
         <div className="projects-content">
-          <div>
+          <div className="project-card">
             
           </div>
         </div>

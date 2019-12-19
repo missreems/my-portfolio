@@ -3,11 +3,11 @@ import React from 'react'
 class Home extends React.Component{
   render() {
     return (
-      <div id="home" className="home-container">
+      <div className="home-container">
         <div className="home-headings">
           <h1>Reema Patel</h1>
           <div></div>
-          <h2>Developer</h2>
+          <h2>Software Engineer</h2>
           <div></div>
         </div>
         <div className="home-text">

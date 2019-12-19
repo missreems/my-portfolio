@@ -6,10 +6,10 @@ class Nav extends React.Component {
     return (
       <nav>
         <a href="header">Home</a>
+        <a href="#about">About</a>
         <a href="#tech">Tech</a>
         <a href="#projects">Projects</a>
-        <a href="">Experience</a>
-        <a href="">About Me</a>
+        <a href="#experience">Experience</a>
       </nav>
     )
   }

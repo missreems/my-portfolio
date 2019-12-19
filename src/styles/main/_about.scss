@@ -1,13 +1,13 @@
-.projects-container {
+.about-container {
   width: 100%;
   height: 100vh;
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
+  flex-direction: column;
+  // justify-content: space-between;
   padding-top: 90px;
 
-  // projects heading
-  .projects-heading {
+  // about heading
+  .about-heading {
     display: flex;
     flex-direction: column;
     text-align: right;
@@ -19,14 +19,14 @@
     }
 
     div {
-      width: 80%;
+      width: 20%;
       align-self: flex-end;
       border-bottom: 5px solid darkorange;
       margin-top: 10px;
     }
   }
 
-  .projects-content {
+  .about-content {
     width: 75%;
     display: flex;
     // padding-top: 70px;
