@@ -3,7 +3,6 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  // justify-content: space-between;
   padding-top: 90px;
 
   // about heading
@@ -19,7 +18,7 @@
     }
 
     div {
-      width: 20%;
+      width: 30%;
       align-self: flex-end;
       border-bottom: 5px solid darkorange;
       margin-top: 10px;
@@ -29,48 +28,61 @@
   .about-content {
     width: 100%;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
-    background-color: lightblue;
-    // flex-direction: column;
-    // align-items: center;
-    margin-top: 50px;
 
     .about-text {
       width: 50%;
       display:flex;
       flex-direction: column;
-      background-color: lightgreen;
+      align-items: flex-end;  
+      margin-top: 50px;
 
-
-      h3 {
-        width: 12%;
-        font-size: 25px;
-        padding-bottom: 5px;
-        text-transform: uppercase;
-        border-bottom: 2px solid darkorange;
-        color: darkblue;
-        padding-left: 40px;
+      .about-summary {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
         margin-bottom: 10px;
+
+        h3 {
+          font-size: 25px;
+          color: darkblue;
+          padding-right: 50px;
+        }
+
+        div {
+          width: 80%;
+          border-bottom: 2px solid darkorange;
+          margin-top: 10px;
+        }
       }
 
       p {
         margin: 10px 0;
-        margin-left: 40px;
+        margin-right: 50px;
         font-size: 20px;
+        text-align: justify;
+      }
+
+      .interests {
+        margin-top: 50px;
+        margin-left: 50px;
+        padding: 0 20px;
+        font-size: 35px;
+        font-family: 'Julius Sans One', sans-serif;
+        color: darkblue;
+        border-left: 3px solid darkorange;
+        border-right: 3px solid darkorange;
+        align-self: flex-start;
       }
     }
     
-    .about-media {
-      width: 40%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-
-      img {
-        width: 60%;
-        border-radius: 50%;
-        border: 5px solid darkorange;
-      }
+    img {
+      width: 350px;
+      height: auto;
+      border-radius: 10px;
+      border: 5px solid darkorange;
+      margin-left: 150px;
     }
   }
 }

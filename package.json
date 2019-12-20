@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "react-typing-effect": "^2.0.2"
   }
 }

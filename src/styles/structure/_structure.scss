@@ -24,7 +24,14 @@ body {
   h1, h2 {
     font-family: 'Julius Sans One', sans-serif;
     font-weight: lighter;
-    text-transform: uppercase;
+    // text-transform: uppercase;
+    color: darkblue;
+  }
+
+  h3 {
+    font-family: 'Julius Sans One', sans-serif;
+    // font-weight: lighter;
+    // text-transform: uppercase;
     color: darkblue;
   }
 }
