@@ -4,7 +4,7 @@ import ReactTypingEffect from 'react-typing-effect'
 class About extends React.Component{
   render() {
     return (
-      <div className="about-container" id="about">
+      <section className="about-container" id="about">
         <div className="about-heading">
           <h2>About Me</h2>
           <div></div>
@@ -28,7 +28,7 @@ class About extends React.Component{
           <img src="https://i.imgur.com/FndWkRz.jpg"></img>
           
         </div>
-      </div>
+      </section>
     )
   }
 }

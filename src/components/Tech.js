@@ -3,7 +3,7 @@ import React from 'react'
 class Tech extends React.Component{
   render() {
     return (
-      <div className="tech-container" id="tech">
+      <section className="tech-container" id="tech">
         <div className="tech-heading">
           <h2>Tech</h2>
           <div></div>
@@ -118,7 +118,7 @@ class Tech extends React.Component{
             </div>
           </div>
         </div>
-      </div>
+      </section>
     )
   }
 }
