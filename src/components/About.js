@@ -21,7 +21,7 @@ class About extends React.Component{
             <p>I self-studied Python via an online course which led me to take the plunge to become a developer via General Assembly&#39;s Software Engineering Immersive Bootcamp.</p>
             <ReactTypingEffect className="interests"
               text={['Chocolate Glutton', 'Anime Fanatic', 'Snake Enthusiast', 'Candle Decorator', 'Artist']}
-              eraseDelay={1500}
+              eraseDelay={1000}
               speed={100}
             />
           </div>

@@ -60,5 +60,13 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 70px;
+
+    section {
+      border-bottom: 10px dotted darkblue;
+    }
+
+    section:last-of-type {
+      border: none;
+    }
   }
 }
