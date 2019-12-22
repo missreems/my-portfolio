@@ -1,10 +1,12 @@
 .tech-container {
   width: 100%;
-  height: 100vh;
+  // height: 100vh;
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
+  flex-direction: column;
+  // flex-direction: row-reverse;
+  // justify-content: space-between;
   padding-top: 90px;
+  border-bottom: 10px dotted darkblue;
 
   // tech heading
   .tech-heading {
@@ -19,7 +21,7 @@
     }
 
     div {
-      width: 70%;
+      width: 15%;
       align-self: flex-end;
       border-bottom: 5px solid darkorange;
       margin-top: 10px;
@@ -30,12 +32,14 @@
     width: 75%;
     display: flex;
     flex-direction: column;
-    padding-top: 70px;
+    // padding-top: 30px;
+    margin-bottom: 50px;
     
     div {
       display: flex;
       align-items: center;
-      margin-bottom: 25px;
+      // margin-bottom: 25px;
+      margin-bottom: 20px;
 
       //tech category name
       .tech-category {

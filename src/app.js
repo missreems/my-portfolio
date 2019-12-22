@@ -4,10 +4,11 @@ import './styles/style.scss'
 
 import Header from './components/common/Header'
 import Home from './components/Home'
+import About from './components/About'
 import Tech from './components/Tech'
 import Projects from './components/Projects'
 import Experience from './components/Experience'
-import About from './components/About'
+import Footer from './components/common/Footer'
 
 class App extends React.Component{
   render() {
@@ -21,6 +22,7 @@ class App extends React.Component{
             <Projects />
             <Experience />
           </main>
+          <Footer />
         </>
     )
   }
