@@ -19,8 +19,8 @@ class Tech extends React.Component{
             </div>
             <p>This is a Full Stack app. It used a Python Django API, served my data from a PostgreSQL database and consumed the API through React. The concept of my app was an animal encyclopedia.</p>
             <div className="project-icons">
-              <a href="#"><i className="fab fa-github-square"></i></a>
-              <a href="#"><i className="devicon-heroku-plain"></i></a>
+              <a href="https://github.com/missreems/project-4" rel="noopener noreferrer" target="_blank"><i className="fab fa-github-square"></i></a>
+              <a href="https://animalia-encyclopedia.herokuapp.com/" rel="noopener noreferrer" target="_blank"><i className="devicon-heroku-plain"></i></a>
             </div>
           </div>
 
@@ -33,8 +33,8 @@ class Tech extends React.Component{
             </div>
             <p>This is pair-programming project. We built a React app using an external API. The concept of our app was a movie finder, we used ‘The Movie Database’ API and focussed heavily on the functionality of the filter sidebar.</p>
             <div className="project-icons">
-              <a href="#"><i className="fab fa-github-square"></i></a>
-              <a href="#"><i className="devicon-heroku-plain"></i></a>
+              <a href="https://github.com/missreems/project-2" rel="noopener noreferrer" target="_blank"><i className="fab fa-github-square"></i></a>
+              <a href="http://amazing-movies.herokuapp.com/" rel="noopener noreferrer" target="_blank"><i className="devicon-heroku-plain"></i></a>
             </div>
           </div>
 
@@ -47,8 +47,8 @@ class Tech extends React.Component{
             </div>
             <p>This is a Full Stack MERN app. The concept of our RESTful app was a tech-specific events website, which was initially based on the ‘Meetups’ website with a full-screen map feature integrated via the ‘Mapbox’ API.</p>
             <div className="project-icons">
-              <a href="#"><i className="fab fa-github-square"></i></a>
-              <a href="#"><i className="devicon-heroku-plain"></i></a>
+              <a href="https://github.com/missreems/project-3" rel="noopener noreferrer" target="_blank"><i className="fab fa-github-square"></i></a>
+              <a href="https://tech-meet.herokuapp.com/" rel="noopener noreferrer" target="_blank"><i className="devicon-heroku-plain"></i></a>
             </div>
           </div>
 
@@ -61,7 +61,7 @@ class Tech extends React.Component{
             </div>
             <p>This is a grid game built with vanilla JavaScript. The concept of the game was to recreate my own version of the classic ‘Space Invaders’ game. This was my first project since I began my programming journey.</p>
             <div className="project-icons">
-              <a href="#"><i className="fab fa-github-square"></i></a>
+              <a href="https://github.com/missreems/project-01" rel="noopener noreferrer" target="_blank"><i className="fab fa-github-square"></i></a>
             </div>
           </div>
         </div>

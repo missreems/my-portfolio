@@ -15,7 +15,7 @@ class Footer extends React.Component {
 
           <div className="info-type">
             <div>
-              <a href="#"><i className="fas fa-envelope-square"></i></a>
+              <a href="mailto:reemapatel17@outlook.com"><i className="fas fa-envelope-square"></i></a>
               <p>Email:</p>
             </div>
             <p>reemapatel17@outlook.com</p>
@@ -23,7 +23,7 @@ class Footer extends React.Component {
 
           <div className="info-type">
             <div>
-              <a href="#"><i className="fab fa-linkedin"></i></a>
+              <a href="https://www.linkedin.com/in/reema--patel/" rel="noopener noreferrer" target="_blank"><i className="fab fa-linkedin"></i></a>
               <p>LinkedIn:</p>
             </div>
             <p>linkedin.com/in/reema--patel</p>
@@ -31,7 +31,7 @@ class Footer extends React.Component {
 
           <div className="info-type">
             <div>
-              <a href="#"><i className="fab fa-github-square"></i></a>
+              <a href="https://github.com/missreems" rel="noopener noreferrer" target="_blank"><i className="fab fa-github-square"></i></a>
               <p>Github:</p>
             </div>
             <p>github.com/missreems</p>
