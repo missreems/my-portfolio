@@ -3,7 +3,7 @@ import React from 'react'
 class Footer extends React.Component {
   render() {
     return (
-      <footer>
+      <footer id="footer">
         <div className="contact-heading">
           <h2>Contact Me</h2>
           <div></div>
@@ -18,7 +18,7 @@ class Footer extends React.Component {
               <a href="mailto:reemapatel17@outlook.com"><i className="fas fa-envelope-square"></i></a>
               <p>Email:</p>
             </div>
-            <p>reemapatel17@outlook.com</p>
+            <a href="mailto:reemapatel17@outlook.com"><p>reemapatel17@outlook.com</p></a>
           </div>
 
           <div className="info-type">
@@ -26,7 +26,7 @@ class Footer extends React.Component {
               <a href="https://www.linkedin.com/in/reema--patel/" rel="noopener noreferrer" target="_blank"><i className="fab fa-linkedin"></i></a>
               <p>LinkedIn:</p>
             </div>
-            <p>linkedin.com/in/reema--patel</p>
+            <a href="https://www.linkedin.com/in/reema--patel/" rel="noopener noreferrer" target="_blank"><p>linkedin.com/in/reema--patel</p></a>
           </div>
 
           <div className="info-type">
@@ -34,7 +34,8 @@ class Footer extends React.Component {
               <a href="https://github.com/missreems" rel="noopener noreferrer" target="_blank"><i className="fab fa-github-square"></i></a>
               <p>Github:</p>
             </div>
-            <p>github.com/missreems</p>
+            
+            <a href="https://github.com/missreems" rel="noopener noreferrer" target="_blank"><p>github.com/missreems</p></a>
           </div>
           
         </div>

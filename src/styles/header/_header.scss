@@ -1,7 +1,8 @@
 header {
-  // navigation
+  z-index: 10;
+
   nav {
-    width: 40%;
+    width: 45%;
     display: flex;
     justify-content: space-around;
 
@@ -10,16 +11,21 @@ header {
       color: white;
       text-transform: uppercase;
       text-decoration: none;
-      font-family: 'Julius Sans One', sans-serif;
       font-size: 18px;
+    }
+
+    a:hover {
+      color: darkblue;
+      font-weight: bolder;
+      border-bottom: 1px solid white;
     }
   }
 
-  // contact icons
   .contact-icons {
     width: 13%;
     display: flex;
     justify-content: space-around;
+
     a {
       color: black;
 
@@ -27,6 +33,10 @@ header {
         font-size: 40px;
         color: darkblue;
         color: white;
+      }
+
+      i:hover {
+        color: darkblue;
       }
     }
   }

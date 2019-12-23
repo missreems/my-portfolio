@@ -10,6 +10,7 @@ class Nav extends React.Component {
         <a href="#tech">Tech</a>
         <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
+        <a href="#footer">Contact</a>
       </nav>
     )
   }
